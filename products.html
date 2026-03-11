@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Products — STEDTOP Pharmaceuticals</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo-link">
+      <img src="assets/images/logo.png" alt="STEDTOP Logo">
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="contacts.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="contacts.html" class="nav-cta">Get In Touch</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="page-hero-bg">
+    <div class="hero-orb hero-orb--1"></div>
+    <div class="hero-orb hero-orb--2"></div>
+    <div class="hero-grid"></div>
+  </div>
+  <div class="container page-hero-content">
+    <div class="label-tag">Our Portfolio</div>
+    <h1>Pharmaceutical<br>Products</h1>
+    <p>Precision-formulated solutions across Pain, Neuro, Gastro &amp; Wellness.</p>
+  </div>
+  <svg class="hero-wave" viewBox="0 0 1440 100" preserveAspectRatio="none">
+    <path d="M0,70 C480,120 960,20 1440,70 L1440,100 L0,100 Z" fill="#ffffff"/>
+  </svg>
+</section>
+
+<!-- FILTER BAR -->
+<section class="filter-section" id="filter-section">
+  <div class="container">
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All Products</button>
+      <button class="filter-btn" data-filter="pain">Pain Management</button>
+      <button class="filter-btn" data-filter="neuro">Neuro Care</button>
+      <button class="filter-btn" data-filter="gastro">Gastro Care</button>
+      <button class="filter-btn" data-filter="wellness">Wellness</button>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS LISTING -->
+<section class="products-listing">
+  <div class="container">
+    <div class="products-stack" id="products-grid">
+
+      <!-- ZETPAR AC — Pain -->
+      <div class="pcard" data-category="pain">
+        <div class="pcard-img">
+          <img src="assets/images/product-zetpar-ac.png" alt="ZETPAR AC">
+          <span class="pcard-badge" style="background:#c0392b">Pain</span>
+        </div>
+        <div class="pcard-body">
+          <div class="pcard-head">
+            <h3>ZETPAR AC</h3>
+            <span class="pcard-cat">Pain Management</span>
+          </div>
+          <p class="pcard-tagline">Advanced Pain Management Formulation</p>
+          <p class="pcard-desc">ZETPAR AC is a potent analgesic formulation designed for effective relief from acute and chronic pain. Its dual-action mechanism provides fast-onset relief while minimising gastric side effects for patient comfort.</p>
+          <div class="pcard-features">
+            <span>Fast-acting relief</span>
+            <span>Gastric-safe</span>
+            <span>Musculoskeletal pain</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- GALATOP PN SR — Neuro -->
+      <div class="pcard" data-category="neuro">
+        <div class="pcard-img">
+          <img src="assets/images/product-galatop-pn-sr.png" alt="GALATOP PN SR">
+          <span class="pcard-badge" style="background:#6c5ce7">Neuro</span>
+        </div>
+        <div class="pcard-body">
+          <div class="pcard-head">
+            <h3>GALATOP-PN SR</h3>
+            <span class="pcard-cat">Neuro &amp; Nerve Care</span>
+          </div>
+          <p class="pcard-tagline">Advanced Neuro Supportive Therapy</p>
+          <p class="pcard-desc">GALATOP-PN SR is a sustained-release neuroprotective formulation that supports nerve regeneration and alleviates neuropathic pain. Ideal for diabetic neuropathy and nerve damage management.</p>
+          <div class="pcard-features">
+            <span>Sustained-release</span>
+            <span>Neuroprotective</span>
+            <span>Nerve regeneration</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- OOPAN DSR — Gastro -->
+      <div class="pcard" data-category="gastro">
+        <div class="pcard-img">
+          <img src="assets/images/product-oopan-dsr.png" alt="OOPAN DSR">
+          <span class="pcard-badge" style="background:#00897b">Gastro</span>
+        </div>
+        <div class="pcard-body">
+          <div class="pcard-head">
+            <h3>OOPAN DSR</h3>
+            <span class="pcard-cat">Gastro Care</span>
+          </div>
+          <p class="pcard-tagline">Reliable Gastro Protection Solution</p>
+          <p class="pcard-desc">OOPAN DSR combines a proton pump inhibitor with a prokinetic agent to provide comprehensive gastro protection. It effectively manages acid reflux, GERD, and gastric motility disorders.</p>
+          <div class="pcard-features">
+            <span>Dual-action acid control</span>
+            <span>Gastric motility</span>
+            <span>GERD management</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- GALATOP K2-7 — Wellness -->
+      <div class="pcard" data-category="wellness">
+        <div class="pcard-img">
+          <img src="assets/images/product-galatop-k2-7.png" alt="GALATOP K2-7">
+          <span class="pcard-badge" style="background:#e67e22">Wellness</span>
+        </div>
+        <div class="pcard-body">
+          <div class="pcard-head">
+            <h3>GALATOP K2-7</h3>
+            <span class="pcard-cat">Wellness &amp; Bone Health</span>
+          </div>
+          <p class="pcard-tagline">Bone &amp; Calcium Wellness Support</p>
+          <p class="pcard-desc">GALATOP K2-7 combines Calcium, Vitamin D3, and Vitamin K2-7 for comprehensive bone health. It supports bone mineralisation, prevents osteoporosis, and ensures optimal calcium utilisation.</p>
+          <div class="pcard-features">
+            <span>Enhanced calcium absorption</span>
+            <span>Prevents bone loss</span>
+            <span>Vitamin K2-7 matrix</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="products-cta">
+  <div class="container products-cta-inner reveal">
+    <h2>Looking for Product Information?</h2>
+    <p>Our medical team is available to help healthcare professionals with detailed product information and enquiries.</p>
+    <a href="contacts.html" class="btn-gold">Contact Our Team</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="assets/images/logo.png" alt="STEDTOP Logo" class="footer-logo">
+      <p>Quality You Can Trust — delivering precision pharmaceutical solutions across India.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="products.html">Products</a>
+      <a href="contacts.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Therapeutic Areas</h4>
+      <a href="products.html#pain">Pain Management</a>
+      <a href="products.html#neuro">Neuro &amp; Nerve Care</a>
+      <a href="products.html#gastro">Gastro Care</a>
+      <a href="products.html#wellness">Wellness &amp; Bone Health</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="mailto:stp.bhubaneswar@gmail.com">stp.bhubaneswar@gmail.com</a>
+      <p style="margin-top:.6rem;font-size:.8rem;color:rgba(255,255,255,.38)">Mon–Sat: 9AM – 6PM</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 STEDTOP Pharmaceuticals Pvt. Ltd. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>

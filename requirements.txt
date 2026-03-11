@@ -1,0 +1,156 @@
+# ============================================================
+# STEDTOP Pharmaceuticals — Project Requirements
+# Static Website | HTML / CSS / Vanilla JavaScript
+# ============================================================
+# This is a purely static website with ZERO runtime dependencies.
+# No npm install, no pip install, no build step required.
+# All code runs directly in the browser.
+# ============================================================
+
+
+# ──────────────────────────────────────────────────────────────
+# RUNTIME DEPENDENCIES (Browser — loaded via CDN)
+# ──────────────────────────────────────────────────────────────
+
+# Google Fonts — Loaded automatically via <link> in HTML <head>
+# Playfair Display  — Display / heading serif font
+# Inter             — Body / UI sans-serif font
+# Source: https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap
+
+# No JavaScript libraries or frameworks are used.
+# No CSS frameworks (Bootstrap, Tailwind, etc.) are used.
+# Everything is written in pure HTML5, CSS3, and Vanilla JS.
+
+
+# ──────────────────────────────────────────────────────────────
+# DEVELOPMENT TOOLS (Optional — for local development only)
+# ──────────────────────────────────────────────────────────────
+
+# Option A: VS Code + Live Server Extension (Recommended)
+#   Editor  : Visual Studio Code >= 1.75.0
+#             https://code.visualstudio.com/
+#   Extension: Live Server by Ritwick Dey >= 5.7.9
+#             https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+#   Usage   : Right-click index.html → "Open with Live Server"
+#   Port    : http://127.0.0.1:5500
+
+# Option B: Node.js serve (if Node.js is installed)
+#   Node.js  >= 14.0.0
+#             https://nodejs.org/
+#   Package  : serve (no install needed with npx)
+#   Command  : npx serve .
+#   Port    : http://localhost:3000
+
+# Option C: Python HTTP Server (if Python is installed)
+#   Python   >= 3.6
+#             https://www.python.org/
+#   Command  : python -m http.server 8080
+#   Port    : http://localhost:8080
+
+# Option D: Direct File Open (No tools needed)
+#   Simply double-click index.html to open in any browser.
+#   Note: Some browsers may block local font loading in this mode.
+#         Use Live Server or Python server for best results.
+
+
+# ──────────────────────────────────────────────────────────────
+# BROWSER REQUIREMENTS
+# ──────────────────────────────────────────────────────────────
+
+# Google Chrome    >= 90
+# Mozilla Firefox  >= 88
+# Microsoft Edge   >= 90
+# Apple Safari     >= 14
+# Internet Explorer: NOT SUPPORTED
+#
+# Required browser APIs used in this project:
+#   - IntersectionObserver  (scroll reveal animations)
+#   - CSS Custom Properties (design tokens / variables)
+#   - CSS Grid & Flexbox    (layout)
+#   - CSS backdrop-filter   (frosted glass header)
+#   - window.location.hash  (product filter routing)
+#   - History API           (replaceState for filter URLs)
+
+
+# ──────────────────────────────────────────────────────────────
+# OPERATING SYSTEM
+# ──────────────────────────────────────────────────────────────
+
+# Windows  10 / 11
+# macOS    11 (Big Sur) or later
+# Linux    Any modern distribution with a supported browser
+
+
+# ──────────────────────────────────────────────────────────────
+# FILE REQUIREMENTS
+# ──────────────────────────────────────────────────────────────
+
+# All files must be kept in their original folder structure:
+#
+#   index.html                         (root)
+#   about.html                         (root)
+#   products.html                      (root)
+#   contacts.html                      (root)
+#   assets/css/style.css               (stylesheet)
+#   assets/js/script.js                (javascript)
+#   assets/images/logo.png             (company logo)
+#   assets/images/icon-pain.jfif       (therapeutic icon)
+#   assets/images/icon-neuro.jpg       (therapeutic icon)
+#   assets/images/icon-gastro.jfif     (therapeutic icon)
+#   assets/images/icon-wellness.jfif   (therapeutic icon)
+#   assets/images/product-zetpar-ac.png
+#   assets/images/product-galatop-pn-sr.png
+#   assets/images/product-oopan-dsr.png
+#   assets/images/product-galatop-k2-7.png
+
+
+# ──────────────────────────────────────────────────────────────
+# INTERNET CONNECTION
+# ──────────────────────────────────────────────────────────────
+
+# Required ONLY for Google Fonts to load (loaded from CDN).
+# The website layout and functionality work fully offline —
+# only font rendering will fall back to system serif/sans-serif
+# if there is no internet connection.
+
+
+# ──────────────────────────────────────────────────────────────
+# NO BACKEND / SERVER-SIDE REQUIREMENTS
+# ──────────────────────────────────────────────────────────────
+
+# This project has NO:
+#   - Server-side language (PHP, Python, Node.js, etc.)
+#   - Database (MySQL, MongoDB, etc.)
+#   - API endpoints
+#   - Authentication system
+#   - Build tools (Webpack, Vite, Parcel, etc.)
+#   - Package managers (npm, yarn, pip, etc.)
+#   - Environment variables
+#   - Docker / containerisation
+#
+# It is a 100% static website — any static file host works.
+
+
+# ──────────────────────────────────────────────────────────────
+# DEPLOYMENT OPTIONS (No special requirements)
+# ──────────────────────────────────────────────────────────────
+
+# Any of the following hosting platforms work out of the box:
+#   - GitHub Pages     : https://pages.github.com/
+#   - Netlify          : https://www.netlify.com/
+#   - Vercel           : https://vercel.com/
+#   - Firebase Hosting : https://firebase.google.com/products/hosting
+#   - Amazon S3        : https://aws.amazon.com/s3/
+#   - Any cPanel/FTP web hosting provider
+
+
+# ──────────────────────────────────────────────────────────────
+# PROJECT INFO
+# ──────────────────────────────────────────────────────────────
+
+# Project  : STEDTOP Pharmaceuticals Official Website
+# Version  : 1.0.0
+# Company  : STEDTOP Pharmaceuticals Pvt. Ltd.
+# Location : Bhubaneswar, Odisha, India
+# Contact  : stp.bhubaneswar@gmail.com
+# License  : All Rights Reserved © 2025 STEDTOP Pharmaceuticals Pvt. Ltd.
