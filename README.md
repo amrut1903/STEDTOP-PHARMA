@@ -323,8 +323,24 @@ To update the email, search for `stp.bhubaneswar@gmail.com` across all HTML file
 | **Location** | Bhubaneswar, Odisha, India |
 | **Fonts** | [Google Fonts](https://fonts.google.com) — Playfair Display, Inter |
 | **Built With** | HTML5, CSS3, Vanilla JavaScript |
+
 | **No frameworks used** | Pure hand-coded static site |
 
 ---
 
-*© 2025 STEDTOP Pharmaceuticals Pvt. Ltd. All rights reserved.*
+*© 2025 STEDTOP Pharmaceuticals Pvt. Ltd. All rights
+
+reserved.*
+
+<img width="1901" height="859" alt="image" src="https://github.com/user-attachments/assets/3bf2e099-c2dd-493b-8c27-e38c68290797" />
+
+<img width="1900" height="862" alt="image" src="https://github.com/user-attachments/assets/4f249e62-0eeb-4f9e-a0ba-6426ce630154" />
+
+<img width="1901" height="866" alt="image" src="https://github.com/user-attachments/assets/8992d596-4e2d-4374-8d88-64e527d75212" />
+
+<img width="1901" height="861" alt="image" src="https://github.com/user-attachments/assets/0878cdf4-28f9-4b89-9553-235237d6402d" />
+
+
+
+
+
