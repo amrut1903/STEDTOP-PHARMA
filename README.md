@@ -1,4 +1,4 @@
-# STEDTOP Pharmaceuticals — Official Website
+# STEDTOP Pharmaceuticals — Website
 
 > **Quality You Can Trust**
 
@@ -89,7 +89,7 @@ STEDTOP/
 
 ## Pages
 
-### 🏠 Home (`index.html`)
+### Home (`index.html`)
 
 The homepage introduces the company and highlights its expertise.
 
@@ -102,7 +102,7 @@ Features include:
 
 ---
 
-### 🏢 About (`about.html`)
+### About (`about.html`)
 
 The About page describes the company's mission and values.
 
@@ -114,7 +114,7 @@ Includes:
 
 ---
 
-### 💊 Products (`products.html`)
+### Products (`products.html`)
 
 Displays pharmaceutical products with a category filtering system.
 
@@ -131,7 +131,7 @@ Each product is displayed with:
 
 ---
 
-### 📞 Contact (`contacts.html`)
+### Contact (`contacts.html`)
 
 Provides contact details and a customer enquiry form.
 
@@ -147,14 +147,14 @@ Includes:
 
 Key functionality implemented in the website:
 
-- ✅ Responsive multi-page website design
-- ✅ Sticky navigation bar
-- ✅ Mobile hamburger menu
-- ✅ Product category filtering system
-- ✅ Scroll reveal animations
-- ✅ Contact form with validation
-- ✅ Interactive hover effects
-- ✅ Clean pharmaceutical themed UI design
+- Responsive multi-page website design
+- Sticky navigation bar
+- Mobile hamburger menu
+- Product category filtering system
+- Scroll reveal animations
+- Contact form with validation
+- Interactive hover effects
+- Clean pharmaceutical themed UI design
 
 ---
 
@@ -210,35 +210,20 @@ Then open: [http://localhost:8080](http://localhost:8080)
 
 | Browser | Support |
 |---------|---------|
-| Google Chrome | ✅ Supported |
-| Firefox | ✅ Supported |
-| Safari | ✅ Supported |
-| Microsoft Edge | ✅ Supported |
-| Internet Explorer | ❌ Not Supported |
+| Google Chrome | Supported |
+| Firefox | Supported |
+| Safari | Supported |
+| Microsoft Edge | Supported |
+| Internet Explorer | Not Supported |
 
 ---
 
-## Contact
+## Screenshots
 
-**STEDTOP Pharmaceuticals Pvt. Ltd.**
-Bhubaneswar, Odisha, India
+<img width="1900" height="862" alt="Screenshot 2026-03-11 165409" src="https://github.com/user-attachments/assets/e3bb488c-6b3a-4bac-b9df-2fd6e7bb28d6" />
 
-📧 Email: [stp.bhubaneswar@gmail.com](mailto:stp.bhubaneswar@gmail.com)
+<img width="1901" height="866" alt="Screenshot 2026-03-11 165430" src="https://github.com/user-attachments/assets/d2076eee-f7d9-4a34-a490-b9370d63487a" />
 
----
+<img width="1819" height="848" alt="Screenshot 2026-03-11 165451" src="https://github.com/user-attachments/assets/135f2340-31b9-4bd3-bd8c-12b24a0e3b15" />
 
-## Credits
 
-| Item | Details |
-|------|---------|
-| **Company** | STEDTOP Pharmaceuticals Pvt. Ltd. |
-| **Location** | Bhubaneswar, Odisha, India |
-| **Built With** | HTML5, CSS3, Vanilla JavaScript |
-| **Fonts** | Google Fonts |
-
----
-
-## License
-
-© 2025 STEDTOP Pharmaceuticals Pvt. Ltd.
-All rights reserved.
